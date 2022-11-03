@@ -1,4 +1,4 @@
-import { Syntax } from './syntax';
+import { Syntax } from './syntax.js';
 
 export type ArgumentListElement = Expression | SpreadElement;
 export type ArrayExpressionElement = Expression | SpreadElement | null;

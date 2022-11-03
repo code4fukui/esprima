@@ -1,10 +1,10 @@
-import { Character } from './character';
-import * as JSXNode from './jsx-nodes';
-import { JSXSyntax } from './jsx-syntax';
-import * as Node from './nodes';
-import { Marker, Parser } from './parser';
-import { Token, TokenName } from './token';
-import { XHTMLEntities } from './xhtml-entities';
+import { Character } from './character.js';
+import * as JSXNode from './jsx-nodes.js';
+import { JSXSyntax } from './jsx-syntax.js';
+import * as Node from './nodes.js';
+import { Marker, Parser } from './parser.js';
+import { Token, TokenName } from './token.js';
+import { XHTMLEntities } from './xhtml-entities.js';
 
 interface MetaJSXElement {
     node: Marker;

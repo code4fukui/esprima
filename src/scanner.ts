@@ -1,8 +1,8 @@
-import { assert } from './assert';
-import { Character } from './character';
-import { ErrorHandler } from './error-handler';
-import { Messages } from './messages';
-import { Token } from './token';
+import { assert } from './assert.js';
+import { Character } from './character.js';
+import { ErrorHandler } from './error-handler.js';
+import { Messages } from './messages.js';
+import { Token } from './token.js';
 
 function hexValue(ch: string): number {
     return '0123456789abcdef'.indexOf(ch.toLowerCase());

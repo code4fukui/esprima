@@ -1,5 +1,5 @@
-import { JSXSyntax } from './jsx-syntax';
-import * as Node from './nodes';
+import { JSXSyntax } from './jsx-syntax.js';
+import * as Node from './nodes.js';
 
 export type JSXAttributeName = JSXIdentifier | JSXNamespacedName;
 export type JSXAttributeValue = Node.Literal | JSXElement | JSXSpreadAttribute | JSXExpressionContainer;

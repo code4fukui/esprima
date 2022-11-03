@@ -22,10 +22,10 @@
   THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-import { CommentHandler } from './comment-handler';
-import { JSXParser } from './jsx-parser';
-import { Parser } from './parser';
-import { Tokenizer } from './tokenizer';
+import { CommentHandler } from './comment-handler.js';
+import { JSXParser } from './jsx-parser.js';
+import { Parser } from './parser.js';
+import { Tokenizer } from './tokenizer.js';
 
 export function parse(code: string, options, delegate) {
     let commentHandler: CommentHandler | null = null;
@@ -118,7 +118,7 @@ export function tokenize(code: string, options, delegate) {
     return tokens;
 }
 
-export { Syntax } from './syntax';
+export { Syntax } from './syntax.js';
 
 // Sync with *.json manifests.
 export const version = '4.0.0-dev';

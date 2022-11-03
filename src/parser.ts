@@ -1,10 +1,10 @@
-import { assert } from './assert';
-import { ErrorHandler } from './error-handler';
-import { Messages } from './messages';
-import * as Node from './nodes';
-import { Comment, RawToken, Scanner, SourceLocation } from './scanner';
-import { Syntax } from './syntax';
-import { Token, TokenName } from './token';
+import { assert } from './assert.js';
+import { ErrorHandler } from './error-handler.js';
+import { Messages } from './messages.js';
+import * as Node from './nodes.js';
+import { Comment, RawToken, Scanner, SourceLocation } from './scanner.js';
+import { Syntax } from './syntax.js';
+import { Token, TokenName } from './token.js';
 
 interface Config {
     range: boolean;

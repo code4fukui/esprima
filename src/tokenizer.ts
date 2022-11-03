@@ -1,6 +1,6 @@
-import { ErrorHandler } from './error-handler';
-import { Comment, RawToken, Scanner, SourceLocation } from './scanner';
-import { Token, TokenName } from './token';
+import { ErrorHandler } from './error-handler.js';
+import { Comment, RawToken, Scanner, SourceLocation } from './scanner.js';
+import { Token, TokenName } from './token.js';
 
 type ReaderEntry = string | null;
 

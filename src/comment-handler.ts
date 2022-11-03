@@ -1,5 +1,5 @@
-import { SourceLocation } from './scanner';
-import { Syntax } from './syntax';
+import { SourceLocation } from './scanner.js';
+import { Syntax } from './syntax.js';
 
 interface Comment {
     type: string;
