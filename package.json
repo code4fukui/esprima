@@ -92,6 +92,6 @@
     "downstream": "node test/downstream.js",
     "generate-regex": "node tools/generate-identifier-regex.js",
     "generate-xhtml-entities": "node tools/generate-xhtml-entities.js",
-    "build-es": "mkdir es && tsc --module es2020 --outDir es/ src/*.ts && cd es && deno bundle esprima.js > esprima.bundle.js && terser -c -m ---module -o esprima.min.js esprima.bundle.js"
+    "build-es": "mkdir -p es && tsc --module es2020 --outDir es/ src/*.ts && deno bundle es/esprima.js | terser -c -m --module -o ./esprima.js"
   }
 }
