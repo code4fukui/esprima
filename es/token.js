@@ -1,0 +1,11 @@
+export var TokenName = {};
+TokenName[1 /* Token.BooleanLiteral */] = 'Boolean';
+TokenName[2 /* Token.EOF */] = '<end>';
+TokenName[3 /* Token.Identifier */] = 'Identifier';
+TokenName[4 /* Token.Keyword */] = 'Keyword';
+TokenName[5 /* Token.NullLiteral */] = 'Null';
+TokenName[6 /* Token.NumericLiteral */] = 'Numeric';
+TokenName[7 /* Token.Punctuator */] = 'Punctuator';
+TokenName[8 /* Token.StringLiteral */] = 'String';
+TokenName[9 /* Token.RegularExpression */] = 'RegularExpression';
+TokenName[10 /* Token.Template */] = 'Template';
