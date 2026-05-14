@@ -3,3 +3,8 @@ node_modules
 test/dist
 src/*.js
 dist/esprima.js
+
+# auto-added by meta-ops
+node_modules/
+.DS_Store
+Thumbs.db
