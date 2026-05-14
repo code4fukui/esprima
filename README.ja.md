@@ -16,7 +16,7 @@ Esprima ([esprima.org](http://esprima.org)) は、JavaScriptで書かれた高�
 
 *   ECMAScript 2019 (ECMA-262 第10版) のフルサポート
 *   [ESTreeプロジェクト](https://github.com/estree/estree)によって標準化された、合理的な[構文木フォーマット](https://github.com/estree/estree/blob/master/es5.md)
-*   [React](https://facebook.github.io/react/)の構文拡張である[JSX](https://facebook.github.io/jsx/)の実験的サポート
+*   [React](https://facebook.github.io/react/)の構文拡張であるJSX *(demo unavailable)*の実験的サポート
 *   オプションでの構文ノードの位置情報（インデックスベースおよび行・列ベース）の追跡
 *   1500以上の[ユニットテスト](https://github.com/jquery/esprima/tree/master/test/fixtures)による徹底的なテスト
 

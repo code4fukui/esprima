@@ -18,7 +18,7 @@ Esprima ([esprima.org](http://esprima.org)) is a high-performance, standard-comp
 
 *   Full support for ECMAScript 2019 (ECMA-262 10th Edition)
 *   Sensible [syntax tree format](https://github.com/estree/estree/blob/master/es5.md) standardized by the [ESTree project](https://github.com/estree/estree)
-*   Experimental support for [JSX](https://facebook.github.io/jsx/), a syntax extension for [React](https://facebook.github.io/react/)
+*   Experimental support for JSX *(demo unavailable)*, a syntax extension for [React](https://facebook.github.io/react/)
 *   Optional tracking of syntax node location (index-based and line-column)
 *   Heavily tested with over 1500 [unit tests](https://github.com/jquery/esprima/tree/master/test/fixtures)
 
